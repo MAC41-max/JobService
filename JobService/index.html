@@ -4,21 +4,25 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Servicios de Limpieza</title>
+
+    <!-- Link to your CSS (adjust path if needed) -->
     <link rel="stylesheet" href="style.css" />
+
     <style>
+        /* Decorative GIF in top-right, below header */
         .corner-gif {
             position: fixed;
-            top: 10px;
+            top: 70px; /* pushes it below sticky header */
             right: 10px;
             width: 120px;
-            z-index: 1000;
-            pointer-events: none;
+            z-index: 998; /* below header, above content */
+            pointer-events: none; /* purely decorative */
         }
 
         @media (max-width: 600px) {
             .corner-gif {
                 width: 70px;
-                top: 5px;
+                top: 60px; /* smaller gap on mobile */
                 right: 5px;
             }
         }
@@ -64,7 +68,7 @@
     <section id="about" class="section light">
         <div class="container">
             <h3>About Us</h3>
-            <p> Somos una empresa dedicada a proporcionar servicios de limpieza de alta calidad para hogares y oficinas. Nuestro equipo está compuesto por profesionales capacitados que utilizan productos ecológicos para garantizar un ambiente limpio y saludable. </p>
+            <p>Somos una empresa dedicada a proporcionar servicios de limpieza de alta calidad para hogares y oficinas. Nuestro equipo está compuesto por profesionales capacitados que utilizan productos ecológicos para garantizar un ambiente limpio y saludable.</p>
         </div>
     </section>
 
@@ -87,9 +91,11 @@
         </div>
     </footer>
 
+    <!-- Decorative GIF -->
     <img src="/images/kuromi.gif" alt="Kuromi cleaning" class="corner-gif">
 
 </body>
 </html>
+
 
 
