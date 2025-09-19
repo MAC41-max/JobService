@@ -10,7 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{8D37FC17-40A0-40B6-B971-FB0F1FDEB939}"
 	ProjectSection(SolutionItems) = preProject
 		JobService\index.html = JobService\index.html
-		..\..\..\Downloads\picmix.com_13035988.gif = ..\..\..\Downloads\picmix.com_13035988.gif
+		..\..\..\Downloads\kuromi.gif = ..\..\..\Downloads\kuromi.gif
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0312C0DA-0759-4314-9178-2894A11B2F49}"
