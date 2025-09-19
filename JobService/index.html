@@ -4,7 +4,35 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Servicios de Limpieza</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .btn, .cta-btn {
+            display: inline-block;
+            padding: 12px 20px;
+            border-radius: 10px;
+            background: #0ea5e9;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+            .btn.ghost {
+                background: #fff;
+                color: #0ea5e9;
+                border: 2px solid #0ea5e9;
+            }
+
+        .btn-row {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -24,9 +52,27 @@
     <section class="hero">
         <div class="container">
             <h2>¡Llámanos!</h2>
-            <p class="phone"><a href="tel:+1234567890">123S-456-7890</a></p>
+            <p class="phone">
+                <!-- tel: works on phones; still ok on desktop -->
+                <a href="tel:+1234567890">123-456-7890</a>
+            </p>
             <p>Limpieza Residencial y Comercial</p>
-            <a href="tel:+1234567890" class="cta-btn">Llámanos Ya</a>
+
+            <div class="btn-row">
+                <!-- Primary call button -->
+                <a href="tel:+1234567890" class="cta-btn">Llámanos Ya</a>
+
+                <!-- WhatsApp -->
+                <a class="btn" href="https://wa.me/11234567890">WhatsApp</a>
+
+                <!-- Email -->
+                <a class="btn ghost" href="mailto:info@serviciodecasa.com?subject=Solicitud%20de%20presupuesto&body=Hola,%20quiero%20información%20sobre%20servicios%20de%20limpieza.">
+                    Enviar correo
+                </a>
+
+                <!-- Jump to Contact section -->
+                <a class="btn ghost" href="#contact">Pedir presupuesto</a>
+            </div>
         </div>
     </section>
 
@@ -60,7 +106,8 @@
             <p>Para más información o para solicitar un presupuesto, contáctanos:</p>
             <p>
                 Teléfono: <a href="tel:+1234567890">123-456-7890</a><br>
-                Email: <a href="mailto:info@serviciodecasa.com">info@serviciodecasa.com</a>
+                Email: <a href="mailto:info@serviciodecasa.com">info@serviciodecasa.com</a><br>
+                WhatsApp: <a href="https://wa.me/11234567890">Enviar mensaje</a>
             </p>
         </div>
     </section>
