@@ -6,11 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobService", "JobService\JobService.csproj", "{A4802F83-EF3E-4D61-A3FA-80BFEB5268B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\kuromi.gif = ..\..\..\Downloads\kuromi.gif
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{8D37FC17-40A0-40B6-B971-FB0F1FDEB939}"
 	ProjectSection(SolutionItems) = preProject
 		JobService\index.html = JobService\index.html
-		..\..\..\Downloads\kuromi.gif = ..\..\..\Downloads\kuromi.gif
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0312C0DA-0759-4314-9178-2894A11B2F49}"
